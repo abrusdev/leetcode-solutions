@@ -1,10 +1,9 @@
-import solutions.example_4.Solution;
+import solutions.example_5.Solution;
 
 public class Main {
     public static void main(String[] args) {
-        int[] arr1 = {1, 2};
-        int[] arr2 = {3,4};
-        double result = new Solution().findMedianSortedArrays(arr1, arr2);
+        Solution solution = new Solution();
+        String result = solution.longestPalindrome("babad");
         System.out.println(result);
     }
 }
